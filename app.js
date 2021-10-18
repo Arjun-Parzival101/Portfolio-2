@@ -40,8 +40,9 @@ app.post("/", function(req, res) {
             console.log(err);
         }
     });
-    res.redirect("/");
-
+    setTimeout(function() {
+        res.redirect("/");
+    }, 1000);
 });
 
 let port = process.env.PORT;

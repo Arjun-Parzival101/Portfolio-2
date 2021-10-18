@@ -116,9 +116,20 @@ contact.addEventListener("mouseover", function() {
 
 /*********************FORM**********************/
 
-const submit = document.querySelector(".message");
+// const submit = document.querySelector(".message");
 
-submit.addEventListener("click", function() {
+// submit.addEventListener("click", function() {
+//     const thanks = document.querySelector(".thanks");
+//     const input = document.querySelector("input");
+//     thanks.classList.remove("thanks-show");
+//     setTimeout(function() {
+//         thanks.classList.add("thanks-show");
+//     }, 1500);
+// });
+
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function() {
     const thanks = document.querySelector(".thanks");
     const input = document.querySelector("input");
     thanks.classList.remove("thanks-show");
