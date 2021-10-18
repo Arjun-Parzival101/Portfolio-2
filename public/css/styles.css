@@ -1233,4 +1233,11 @@ footer a {
     .footer-contents i {
         padding: 0px 10px;
     }
+    .thanks {
+        height: 60px;
+        width: 150px;
+        top: 200px;
+        left: 120px;
+        font-size: 1rem;
+    }
 }
