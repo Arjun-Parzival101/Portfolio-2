@@ -17,7 +17,9 @@ hamburger.addEventListener("click", function() {
 
 window.addEventListener("scroll", function() {
     const header = document.querySelector("header");
+    const scroll = document.querySelector(".scroll-up-button");
     header.classList.toggle("sticky", window.scrollY > 0);
+    scroll.classList.remove("scroll", window.scrollY > 0);
 });
 
 const title = document.querySelector(".title");

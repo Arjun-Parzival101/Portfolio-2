@@ -57,6 +57,10 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 
+.scroll {
+    visibility: hidden;
+}
+
 .scroll-up-button a {
     color: white;
 }
