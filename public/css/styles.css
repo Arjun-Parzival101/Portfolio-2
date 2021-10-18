@@ -51,14 +51,14 @@
     border-radius: 10px;
     border-width: 2px;
     cursor: pointer;
-    /* opacity: 0; */
+    visibility: hidden;
     /* pointer-events: none; */
-    transition: 1s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 
-.scroll {
-    visibility: hidden;
+.scroll-visibility {
+    visibility: visible;
+    transition: 0.5s;
 }
 
 .scroll-up-button a {
