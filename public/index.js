@@ -140,6 +140,14 @@ form.addEventListener("submit", function() {
     }, 1500);
 });
 
+/*******************FOOTER SECTION********************/
+
+const d = new Date();
+let year = d.getFullYear();
+
+document.querySelector(".year").innerHTML = year;
+
+
 /**************************TYPEWRITER EFFECTS*********************************/
 /******************************************************************************/
 
