@@ -354,6 +354,7 @@ header ul li a {
 
 .works-title-content {
     border: solid white;
+    border-bottom: none;
     border-left: none;
     border-right: none;
 }
