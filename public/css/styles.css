@@ -282,8 +282,22 @@ header ul li a {
     border-right: none;
 }
 
+.about-heading {
+    text-align: center;
+}
+
+.profile-pic {
+    margin: 10px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 200px;
+    border-radius: 50%;
+}
+
 .about-content {
-    padding: 100px 90px;
+    padding: 50px 90px;
     background-color: #050505;
     color: white;
 }
@@ -307,7 +321,7 @@ header ul li a {
 }
 
 .about-title {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .about-title:hover {
@@ -317,16 +331,137 @@ header ul li a {
 
 .about-para {
     padding-top: 50px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2;
 }
 
 .about-para h1 {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .about-para-animation {
     animation: 1s ease-out 0s 1 slideInUp;
+}
+
+
+/************Works***********/
+
+.works-title {
+    width: 50%;
+    margin: 30px auto;
+    font-size: 3rem;
+}
+
+.works-title-content {
+    border: solid white;
+    border-left: none;
+    border-right: none;
+}
+
+.works-title:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.work-title-animation {
+    animation: 2s ease-out 0s 1 slideInRight;
+}
+
+.work1,
+.work2 {
+    padding: 30px;
+}
+
+.work-description-animation {
+    animation: 2s ease-out 0s 1 slideInRight;
+}
+
+.work1-img-animation {
+    animation: 2s ease-out 0s 1 slideInRight;
+}
+
+.work2-img-animation {
+    animation: 2s ease-out 0s 1 slideInLeft;
+}
+
+.work-content {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.work1-para,
+.work2-para {
+    color: white;
+    text-align: center;
+}
+
+.work-title-description {
+    line-height: 2;
+    font-size: 1.2rem;
+    padding: 50px 90px;
+    text-align: justify;
+    color: white;
+}
+
+.work1-img,
+.work2-img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.work1:hover,
+.work2:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.work-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* line-height: 2; */
+    padding-bottom: 30px;
+}
+
+.work-link-topic {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.work-links h1 {
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.work-github {
+    width: 150px;
+    height: 150px;
+}
+
+.work-frontend {
+    height: 150px;
+}
+
+.links {
+    padding: 30px;
+}
+
+.links p {
+    text-align: center;
+}
+
+.links:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 .skills {
@@ -360,13 +495,13 @@ header ul li a {
     align-items: center;
     justify-content: center;
     /* max-width: 50%; */
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .skill-heading {
     max-width: 75%;
-    padding-top: 60px;
-    font-size: 4.5rem;
+    padding-top: 30px;
+    font-size: 3rem;
     margin: auto;
 }
 
@@ -381,18 +516,23 @@ header ul li a {
     border-left: none;
     border-right: none;
     font-size: 1.2rem;
-    padding: 100px 90px;
+    padding: 50px 90px;
     background-color: #050505;
     color: white;
     line-height: 2;
 }
 
 .skill-topic {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .skill-description-animation {
     animation: 2s ease-out 0s 1 slideInRight;
+}
+
+.skillset-title {
+    color: white;
+    padding: 20px;
 }
 
 
@@ -521,7 +661,7 @@ header ul li a {
 
 .services-heading {
     width: 50%;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 .services-heading:hover {
@@ -633,7 +773,7 @@ img {
 
 .contact-me-title {
     width: 50%;
-    padding: 50px;
+    padding: 30px;
     color: white;
     margin: auto;
 }
@@ -662,7 +802,7 @@ img {
     align-items: center;
     justify-content: center;
     width: 75%;
-    margin: 60px auto;
+    margin: 30px auto;
     margin-bottom: 0px;
     line-height: 2;
     color: white;
@@ -766,7 +906,7 @@ textarea:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 50px 60px;
+    padding: 20px 60px;
 }
 
 .contact-us-details {
@@ -899,6 +1039,13 @@ footer a {
     .about-para p {
         font-size: 1.1rem;
     }
+    /***Work***/
+    .work-title-description {
+        font-size: 1.1rem;
+    }
+    .work-link-topic {
+        font-size: 1.2rem;
+    }
     /******Skills******/
     .skill-topic {
         font-size: 1.3rem;
@@ -1013,6 +1160,42 @@ footer a {
     .about-content {
         padding: 30px 50px;
     }
+    /***Work***/
+    .work-title-description {
+        padding: 30px 25px;
+        font-size: 0.9rem;
+    }
+    .profile-pic img {
+        width: 100px;
+    }
+    .work-content {
+        padding-top: 0px;
+    }
+    .work1-img,
+    .work2-img {
+        width: 300px;
+        height: 200px;
+    }
+    .work-link-topic {
+        font-size: 1rem;
+        padding-top: 0px;
+    }
+    .work-links {
+        flex-direction: column;
+    }
+    .links {
+        padding: 20px;
+    }
+    .links p {
+        font-size: 0.9rem;
+    }
+    .work1-para,
+    .work2-para {
+        font-size: 0.9rem;
+    }
+    .work-frontend {
+        width: 250px;
+    }
     /****Skills****/
     .cards {
         margin: 10px;
@@ -1048,6 +1231,9 @@ footer a {
     }
     .skill-description p {
         font-size: 1.0rem;
+    }
+    .skillset-title {
+        font-size: 1.2rem;
     }
     /****Services****/
     .services-heading {

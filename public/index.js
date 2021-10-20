@@ -61,6 +61,20 @@ aboutPara.addEventListener("mouseover", function() {
     typewriter();
 });
 
+/*****************WORK SECTION*******************/
+
+const work = document.querySelector("#Works");
+
+work.addEventListener("mouseover", function() {
+    const workDes = document.querySelector(".work-title-description");
+    workDes.classList.add("work-description-animation");
+    const work1 = document.querySelector(".work1");
+    work1.classList.add("work1-img-animation");
+    const work2 = document.querySelector(".work2");
+    work2.classList.add("work2-img-animation");
+});
+
+
 /**************************SKILLS SECTION*************************** */
 
 const skillDescription = document.querySelector(".skill-description");
