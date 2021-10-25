@@ -1321,10 +1321,6 @@ footer a {
         background-attachment: fixed;
     }
     /***About***/
-    .interact-txt::before {
-        content: "Click to interact";
-        color: white;
-    }
     .about-content {
         padding: 30px 25px;
     }
