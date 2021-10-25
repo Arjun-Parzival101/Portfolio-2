@@ -1315,7 +1315,7 @@ footer a {
     }
     /***Home***/
     .home {
-        height: 100vh;
+        height: 80vh;
         background-image: url(../images/home-phone2.jpg);
         background-size: cover;
         background-attachment: fixed;
