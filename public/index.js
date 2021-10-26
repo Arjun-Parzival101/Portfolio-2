@@ -51,17 +51,19 @@ const aboutPara = document.querySelector(".about-para");
 
 aboutPara.addEventListener("mouseover", function() {
     aboutPara.classList.add("about-para-animation");
+    const Interact = document.querySelector(".interact-txt");
+    Interact.classList.add("interact-display");
     typewriter();
 });
 
 
 /****Interact text for mobiles****/
 
-const Interact = document.querySelector(".interact-txt");
+// const Interact = document.querySelector(".interact-txt");
 
-Interact.addEventListener("click", function() {
-    Interact.classList.add("interact-display");
-})
+// Interact.addEventListener("click", function() {
+//     Interact.classList.add("interact-display");
+// })
 
 
 /*****************WORK SECTION*******************/
