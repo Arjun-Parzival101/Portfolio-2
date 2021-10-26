@@ -103,31 +103,56 @@ skillHeading.addEventListener("mouseout", function() {
 
 /*************************SERVICES SECTION**************************/
 
-const services = document.querySelector(".services-title");
+const mediaQuery = window.matchMedia('(min-width: 500px)')
+// Check if the media query is true
+if (mediaQuery.matches) {
+    const services = document.querySelector(".services-title");
 
-services.addEventListener("mouseover", function() {
-    const description = document.querySelector(".services-para");
-    const img1 = document.querySelector(".img1");
-    const img2 = document.querySelector(".img2");
-    const img3 = document.querySelector(".img3");
-    description.classList.add("services-animation");
-    img1.classList.add("img1-animation");
-    img2.classList.add("img2-animation");
-    img3.classList.add("img3-animation");
+    services.addEventListener("mouseover", function() {
+        const description = document.querySelector(".services-para");
+        const img1 = document.querySelector(".img1");
+        const img2 = document.querySelector(".img2");
+        const img3 = document.querySelector(".img3");
+        description.classList.add("services-animation");
+        img1.classList.add("img1-animation");
+        img2.classList.add("img2-animation");
+        img3.classList.add("img3-animation");
 });
+    const contact = document.querySelector(".contact-me");
+
+    contact.addEventListener("mouseover", function() {
+        const form = document.querySelector(".contact-me-form");
+        form.classList.add("form-animation");
+        const details = document.querySelector(".contact-us-details");
+        details.classList.add("details-animation");
+});
+}
+
+// const services = document.querySelector(".services-title");
+
+// services.addEventListener("mouseover", function() {
+//     const description = document.querySelector(".services-para");
+//     const img1 = document.querySelector(".img1");
+//     const img2 = document.querySelector(".img2");
+//     const img3 = document.querySelector(".img3");
+//     description.classList.add("services-animation");
+//     img1.classList.add("img1-animation");
+//     img2.classList.add("img2-animation");
+//     img3.classList.add("img3-animation");
+// });
 
 
 
 /***************************CONTACT ME**************************** */
 
-const contact = document.querySelector(".contact-me");
+// const contact = document.querySelector(".contact-me");
 
-contact.addEventListener("mouseover", function() {
-    const form = document.querySelector(".contact-me-form");
-    form.classList.add("form-animation");
-    const details = document.querySelector(".contact-us-details");
-    details.classList.add("details-animation");
-});
+// contact.addEventListener("mouseover", function() {
+//     const form = document.querySelector(".contact-me-form");
+//     form.classList.add("form-animation");
+//     const details = document.querySelector(".contact-us-details");
+//     details.classList.add("details-animation");
+// });
 
 
 /*********************FORM**********************/
@@ -163,29 +188,29 @@ document.querySelector(".year").innerHTML = year;
 
 /******MEDIA QUERY******/
 
-const mediaQuery = window.matchMedia('(max-width: 500px)')
-// Check if the media query is true
-if (mediaQuery.matches) {
-  // Then trigger an alert
-  document.querySelector(".services-title").removeEventListener("mouseover", function() {
-    const description = document.querySelector(".services-para");
-    const img1 = document.querySelector(".img1");
-    const img2 = document.querySelector(".img2");
-    const img3 = document.querySelector(".img3");
-    description.classList.add("services-animation");
-    img1.classList.add("img1-animation");
-    img2.classList.add("img2-animation");
-    img3.classList.add("img3-animation");
+// const mediaQuery = window.matchMedia('(max-width: 500px)');
+// // Check if the media query is true
+// if (mediaQuery.matches) {
+//   // Then trigger an alert
+//   document.querySelector(".services-title").removeEventListener("mouseover", function() {
+//     const description = document.querySelector(".services-para");
+//     const img1 = document.querySelector(".img1");
+//     const img2 = document.querySelector(".img2");
+//     const img3 = document.querySelector(".img3");
+//     description.classList.add("services-animation");
+//     img1.classList.add("img1-animation");
+//     img2.classList.add("img2-animation");
+//     img3.classList.add("img3-animation");
 
-}); 
-document.querySelector(".contact-me").removeEventListener("mouseover", function() {
-    const form = document.querySelector(".contact-me-form");
-    form.classList.add("form-animation");
-    const details = document.querySelector(".contact-us-details");
-    details.classList.add("details-animation");
-});
+// }); 
+// document.querySelector(".contact-me").removeEventListener("mouseover", function() {
+//     const form = document.querySelector(".contact-me-form");
+//     form.classList.add("form-animation");
+//     const details = document.querySelector(".contact-us-details");
+//     details.classList.add("details-animation");
+// });
 
-}
+// }
 
 /**************************TYPEWRITER EFFECTS*********************************/
 /******************************************************************************/
