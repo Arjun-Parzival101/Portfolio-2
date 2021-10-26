@@ -51,19 +51,11 @@ const aboutPara = document.querySelector(".about-para");
 
 aboutPara.addEventListener("mouseover", function() {
     aboutPara.classList.add("about-para-animation");
+    /***Interact text***/
     const Interact = document.querySelector(".interact-txt");
     Interact.classList.add("interact-display");
     typewriter();
 });
-
-
-/****Interact text for mobiles****/
-
-// const Interact = document.querySelector(".interact-txt");
-
-// Interact.addEventListener("click", function() {
-//     Interact.classList.add("interact-display");
-// })
 
 
 /*****************WORK SECTION*******************/
