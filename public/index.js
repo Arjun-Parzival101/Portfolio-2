@@ -116,9 +116,7 @@ services.addEventListener("mouseover", function() {
     img3.classList.add("img3-animation");
 });
 
-document.querySelector('.services-title').addEventListener('mouseover mouseenter mouseleave mouseup mousedown', function() {
-    return false
- });
+
 
 /***************************CONTACT ME**************************** */
 
@@ -131,10 +129,6 @@ contact.addEventListener("mouseover", function() {
     details.classList.add("details-animation");
 });
 
-
-document.querySelector('.contact-me').addEventListener('mouseover mouseenter mouseleave mouseup mousedown', function() {
-    return false
- });
 
 /*********************FORM**********************/
 
@@ -167,6 +161,31 @@ let year = d.getFullYear();
 
 document.querySelector(".year").innerHTML = year;
 
+/******MEDIA QUERY******/
+
+const mediaQuery = window.matchMedia('(max-width: 500px)')
+// Check if the media query is true
+if (mediaQuery.matches) {
+  // Then trigger an alert
+  document.querySelector(".services-title").removeEventListener("mouseover", function() {
+    const description = document.querySelector(".services-para");
+    const img1 = document.querySelector(".img1");
+    const img2 = document.querySelector(".img2");
+    const img3 = document.querySelector(".img3");
+    description.classList.add("services-animation");
+    img1.classList.add("img1-animation");
+    img2.classList.add("img2-animation");
+    img3.classList.add("img3-animation");
+
+}); 
+document.querySelector(".contact-me").removeEventListener("mouseover", function() {
+    const form = document.querySelector(".contact-me-form");
+    form.classList.add("form-animation");
+    const details = document.querySelector(".contact-us-details");
+    details.classList.add("details-animation");
+});
+
+}
 
 /**************************TYPEWRITER EFFECTS*********************************/
 /******************************************************************************/
