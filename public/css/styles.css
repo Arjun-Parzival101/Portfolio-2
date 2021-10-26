@@ -343,6 +343,15 @@ header ul li a {
     animation: 1s ease-out 0s 1 slideInUp;
 }
 
+.interact-txt {
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+}
+
+.interact-display {
+    display: none;
+}
+
 
 /************Works***********/
 
@@ -1321,6 +1330,9 @@ footer a {
         background-attachment: fixed;
     }
     /***About***/
+    .about-padding {
+        padding-top: 0px;
+    }
     .about-content {
         padding: 30px 25px;
     }
@@ -1332,6 +1344,9 @@ footer a {
     }
     .about-para p {
         font-size: 0.9rem;
+    }
+    .interact-txt::before {
+        content: "(Click to interact)";
     }
     /***Work***/
     .work-title-description {

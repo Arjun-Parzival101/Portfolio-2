@@ -61,6 +61,16 @@ aboutPara.addEventListener("mouseover", function() {
     typewriter();
 });
 
+
+/****Interact text for mobiles****/
+
+// const Interaction = document.querySelector(".interact-txt);
+
+// Interaction.addEventListener("click", function() {
+//     Interaction.classList.add("interact-display");
+// })
+
+
 /*****************WORK SECTION*******************/
 
 const work = document.querySelector("#Works");
