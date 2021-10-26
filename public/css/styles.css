@@ -350,6 +350,7 @@ header ul li a {
 
 .interact-display {
     display: none;
+    transition: 0.5s;
 }
 
 
