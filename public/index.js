@@ -166,7 +166,7 @@ document.querySelector(".year").innerHTML = year;
 
 // set up text to print, each item in array is new line
 var aText = new Array(
-    "I'm a Pre-final year Student pursuing BTech. Information Technology in Panimalar Engineering College. I'm very good with web development & design and have good knowledge with HTML, CSS, JavaScript. Since, I'm good at front-end skills, the websites that I create look more attractive and elegant. Also I'm a fast learner who always tries to give the best."
+    "I'm a Pre-final year Student pursuing BTech. Information Technology in Panimalar Engineering College. I have good knowledge with web development & design and especially with HTML, CSS, JavaScript. Since, I'm good at front-end skills, the websites that I create look more attractive and elegant. Also I'm a fast learner who always tries to give the best."
 );
 var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this posision
