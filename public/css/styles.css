@@ -1353,6 +1353,15 @@ footer a {
     .work-title-description {
         padding-top: 0px;
     }
+    .work-title-animation {
+        animation: none;
+    }
+    .work-description-animation {
+        animation: none;
+    }
+    .work1-img-animation, .work2-img-animation {
+        animation: none;
+    }
     /***Skills***/
     .skill-topic {
         font-size: 1rem;
@@ -1373,6 +1382,13 @@ footer a {
     .icon-para {
         font-size: 0.7rem;
     }
+    .skill-set-animation {
+        animation: none;
+    }
+    
+    .skill-description-animation {
+        animation: none;
+    }
     /***Services***/
     .services-description {
         padding: 30px 25px;
@@ -1385,7 +1401,23 @@ footer a {
         width: 150px;
         height: 100px;
     }
-    */
+    
+    .services-animation {
+        animation: none;
+    }
+    
+    .img1-animation {
+        animation: none;
+    }
+    
+    .img2-animation {
+        animation: none;
+    }
+    
+    .img3-animation {
+        animation: none;
+    }
+
     /***Contact***/
     .contact-me-description {
         width: 87%;
@@ -1429,11 +1461,19 @@ footer a {
     .contact-me-name {
         font-size: 0.8rem;
     }
+    .form-animation {
+        animation: none;
+    }
     .detail1,
     .detail2,
     .detail3 {
         padding: 5px;
     }
+    .details-animation {
+        animation: none;
+    }
+
+    /***Footer***/
     .footer-title {
         padding: 10px;
         font-size: 0.7rem;
