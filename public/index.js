@@ -47,13 +47,6 @@ about.addEventListener("mouseover", function() {
     title.classList.remove("about-padding");
 });
 
-// const aboutDescription = document.querySelector(".about-description");
-
-// aboutDescription.addEventListener("mouseover", function() {
-//     const dummy = document.querySelector(".about-dummy");
-//     dummy.classList.remove("about-padding");
-// });
-
 const aboutPara = document.querySelector(".about-para");
 
 aboutPara.addEventListener("mouseover", function() {
@@ -64,11 +57,11 @@ aboutPara.addEventListener("mouseover", function() {
 
 /****Interact text for mobiles****/
 
-// const Interaction = document.querySelector(".interact-txt);
+const Interact = document.querySelector(".interact-txt");
 
-// Interaction.addEventListener("click", function() {
-//     Interaction.classList.add("interact-display");
-// })
+Interact.addEventListener("click", function() {
+    Interact.classList.add("interact-display");
+})
 
 
 /*****************WORK SECTION*******************/
