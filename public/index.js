@@ -116,6 +116,10 @@ services.addEventListener("mouseover", function() {
     img3.classList.add("img3-animation");
 });
 
+document.querySelector('.services-title').addEventListener('mouseover mouseenter mouseleave mouseup mousedown', function() {
+    return false
+ });
+
 /***************************CONTACT ME**************************** */
 
 const contact = document.querySelector(".contact-me");
@@ -126,6 +130,11 @@ contact.addEventListener("mouseover", function() {
     const details = document.querySelector(".contact-us-details");
     details.classList.add("details-animation");
 });
+
+
+document.querySelector('.contact-me').addEventListener('mouseover mouseenter mouseleave mouseup mousedown', function() {
+    return false
+ });
 
 /*********************FORM**********************/
 
