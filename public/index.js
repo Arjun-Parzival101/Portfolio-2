@@ -69,6 +69,8 @@ work.addEventListener("mouseover", function() {
     work1.classList.add("work1-img-animation");
     const work2 = document.querySelector(".work2");
     work2.classList.add("work2-img-animation");
+    const work3 = document.querySelector(".work3");
+    work3.classList.add("work3-img-animation");
 });
 
 

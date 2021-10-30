@@ -379,7 +379,8 @@ header ul li a {
 }
 
 .work1,
-.work2 {
+.work2,
+.work3 {
     padding: 30px;
 }
 
@@ -395,6 +396,10 @@ header ul li a {
     animation: 2s ease-out 0s 1 slideInLeft;
 }
 
+.work3-img-animation {
+    animation: 2s ease-out 0s 1 slideInLeft;
+}
+
 .work-content {
     padding: 30px;
     display: flex;
@@ -405,7 +410,8 @@ header ul li a {
 }
 
 .work1-para,
-.work2-para {
+.work2-para,
+.work3-para {
     color: white;
     text-align: center;
 }
@@ -419,14 +425,16 @@ header ul li a {
 }
 
 .work1-img,
-.work2-img {
+.work2-img,
+.work3-img {
     width: 500px;
     height: 300px;
     border-radius: 20px;
 }
 
 .work1:hover,
-.work2:hover {
+.work2:hover,
+.work3:hover {
     transition: 0.5s;
     transform: scale(1.1);
 }
@@ -1183,7 +1191,8 @@ footer a {
         padding-top: 0px;
     }
     .work1-img,
-    .work2-img {
+    .work2-img,
+    .work3-img {
         width: 300px;
         height: 200px;
     }
@@ -1359,7 +1368,7 @@ footer a {
     .work-description-animation {
         animation: none;
     }
-    .work1-img-animation, .work2-img-animation {
+    .work1-img-animation, .work2-img-animation, .work3-img-animation {
         animation: none;
     }
     /***Skills***/
